@@ -28,7 +28,7 @@ const navBar =() => {
          <a class="nav-link" href="#">Tienda</a>
        </li>
        <li class="nav-item">
-         <a class="nav-link py-2" href="/compudev/blog">Blog</a>
+         <a class="nav-link py-2" href="compudev/blog">Blog</a>
        </li>
      </ul>
      <form class="form-inline my-2 my-lg-0 " id="barra-busqueda" style="display: none">
