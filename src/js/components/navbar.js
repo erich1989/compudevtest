@@ -16,19 +16,19 @@ const navBar =() => {
    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
      <ul class="navbar-nav ml-auto mr-auto mt-2 mt-lg-0">
        <li class="nav-item active">
-         <a class="nav-link py-2" href="/">Home <span class="sr-only">(current)</span></a>
+         <a class="nav-link py-2" href="/compudev">Home <span class="sr-only">(current)</span></a>
        </li>
        <li class="nav-item">
-         <a class="nav-link py-2" href="/servicios">Servicios</a>
+         <a class="nav-link py-2" href="/compudev/servicios">Servicios</a>
        </li>
        <li class="nav-item">
-         <a class="nav-link py-2" href="/nosotros">Nosotros</a>
+         <a class="nav-link py-2" href="/compudev/nosotros">Nosotros</a>
        </li>
        <li class="nav-item disabled">
          <a class="nav-link" href="#">Tienda</a>
        </li>
        <li class="nav-item">
-         <a class="nav-link py-2" href="/blog">Blog</a>
+         <a class="nav-link py-2" href="/compudev/blog">Blog</a>
        </li>
      </ul>
      <form class="form-inline my-2 my-lg-0 " id="barra-busqueda" style="display: none">
