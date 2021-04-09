@@ -13,7 +13,7 @@ const config = {
   output: {
     filename: "js/[name].js",
     path: path.resolve(__dirname, "docs"),
-    publicPath:"https://erich1989.github.io/compudev/"
+    publicPath:"https://github.com/erich1989/compudev"
   },
 
   mode: 'development',
