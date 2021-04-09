@@ -3,7 +3,7 @@ const app = express();
 const path = require('path');
 
 app.set('port',process.env.PORT || 3000),
-app.set('views', path.join(__dirname, 'public'));
+app.set('views', path.join(__dirname, 'docs'));
 
 const webpack = require('webpack');
 const webpackDevMiddleware = require('webpack-dev-middleware');
