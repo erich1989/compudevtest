@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <title>Nosotros</title>
+  </head>
+  <body>
+    <div id="navbar"></div>
+
+    <div id="banner"></div>
+    
+    <div class="container mb-5 mt-5">
+      <div class="row d-flex align-items-center justify-content-center flex-column">
+        <div
+          class=" col-12 col-md-6  p-3 text-left-1 d-flex align-items-center flex-column text-left"
+        >
+          <p>
+            Con mas de 5 años de experiencia en el mercado, nuestra visión es
+            construir un servicio que nos permita satisfacer las necesidades de
+            nuestros clientes de una manera oportuna y eficiente.
+          </p>
+        </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="map container-fluid mb-5">
+      <div class="row">
+        <div
+          class=" col-12 col-md-6 p-0"
+          style="width: 100%; height: 100%;"
+          id="carousel"
+        ></div>
+        <div
+          class="col-12 col-md-6 p-4 p-md-5 d-flex justify-content-center align-items-center flex-column"
+        >
+          <div style="width: 100%;" class="textmedellin mb-3 mb-md-2">
+            <h3 class="">Estamos ubicados en <span class="typed"></span></h3>
+          </div>
+          
+          <div style="width: 100%;">
+            <p class="texto-blue">
+              ¿Tienes preguntas?
+            </p>
+            <p class="m-0 texto-dark">Telefono</p>
+            <p class="texto-blue">
+              310-210-0844
+            </p>
+            <p class="m-0 texto-dark">Email</p>
+            <p class="texto-blue">soportealcliente@compudev.com</p>
+            <div id="redes"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section class="mt-5 pt-5 mb-5">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12 col-md-10 col-lg-8 text-center">
+            <!-- Heading -->
+            <h2 class="font-weight-bold mb-3">
+              ¡Déjenos saber tus dudas!
+            </h2>
+
+            <!-- Text -->
+            <p class="font-size-lg text-muted mb-7 mb-md-9">
+              Dejanos saber cómo podemos ayudarte y haremos todo lo posible.
+            </p>
+          </div>
+        </div>
+        <!-- / .row -->
+        <div class="row justify-content-center">
+          <div class="col-12 col-md-12 col-lg-10">
+            <!-- Form -->
+            <form>
+              <div class="row">
+                <div class="col-12 col-md-6">
+                  <div class="form-group mb-5">
+                    <!-- Label -->
+                    <label for="contactName">
+                      Nombre completo
+                    </label>
+
+                    <!-- Input -->
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="contactName"
+                      placeholder="Nombre completo"
+                    />
+                  </div>
+                </div>
+                <div class="col-12 col-md-6">
+                  <div class="form-group mb-5">
+                    <!-- Label -->
+                    <label for="contactEmail">
+                      Email
+                    </label>
+
+                    <!-- Input -->
+                    <input
+                      type="email"
+                      class="form-control"
+                      id="contactEmail"
+                      placeholder="hello@domain.com"
+                    />
+                  </div>
+                </div>
+              </div>
+              <!-- / .row -->
+              <div class="row">
+                <div class="col-12">
+                  <div class="form-group mb-7 mb-md-9">
+                    <!-- Label -->
+                    <label for="contactMessage">
+                      ¿En qué podemos ayudarte?
+                    </label>
+
+                    <!-- Input -->
+                    <textarea
+                      class="form-control"
+                      id="contactMessage"
+                      rows="5"
+                      placeholder="¡Dinos en qué podemos ayudarte!"
+                    ></textarea>
+                  </div>
+                </div>
+              </div>
+              <!-- / .row -->
+              <div class="row justify-content-center">
+                <div class="col-auto">
+                  <!-- Submit -->
+                  <button type="submit" class="btn btn-primary lift">
+                    Enviar
+                  </button>
+                </div>
+              </div>
+              <!-- / .row -->
+            </form>
+          </div>
+        </div>
+        <!-- / .row -->
+      </div>
+      <!-- / .container -->
+    </section>
+
+    <div id="footer"></div>
+
+    <script
+      src="https://kit.fontawesome.com/43fd7ff13a.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+    <script src="js/about.js"></script>
+    
+    <script>
+      const typed = new Typed(".typed", {
+        strings: [
+          '<i class="ubicacion">Medellín</i>',
+          '<i class="ubicacion">Antioquia</i>',
+        ],
+        typeSpeed: 75,
+        startDelay: 300,
+        backSpeed: 75,
+        backDelay: 1500,
+        loop: true,
+      });
+    </script>
+  </body>
+</html>
