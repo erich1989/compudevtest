@@ -16,7 +16,7 @@ const config = {
     publicPath:"https://erich1989.github.io/compudev/"
   },
 
-  mode: 'production',
+  mode: 'development',
 
   module: {
     rules: [

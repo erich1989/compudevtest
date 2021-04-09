@@ -1,11 +1,14 @@
+
+import "../../css/index.css";
+import "bootstrap";
+import "bootstrap/dist/css/bootstrap.min.css";
+
 import Navbar from '../components/navbar';
 import Banner from '../components/banner';
 import Carousel from '../components/carousel';
 import Footer from '../components/footer';
 
-import "bootstrap";
-import "bootstrap/dist/css/bootstrap.min.css";
-import "../../css/index.css";
+
 
 const aboutMy = () => {
   Navbar();
