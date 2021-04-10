@@ -19,5 +19,8 @@ router.get('/nosotros', (req, res) => {
 router.get('/blog', (req, res) => {
   res.sendFile(path.join(__dirname, '../../docs/blog.html'));
 })
+router.get('/tienda', (req, res) => {
+  res.sendFile(path.join(__dirname, '../../docs/shop.html'));
+})
 
 module.exports = router;

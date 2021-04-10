@@ -7,7 +7,8 @@ const config = {
     home: path.resolve(__dirname, "src/js/pages/index.js"),
     services: path.resolve(__dirname, "src/js/pages/services.js"),
     about: path.resolve(__dirname, 'src/js/pages/about.js'),
-    blog: path.resolve(__dirname, "src/js/pages/blog.js")
+    blog: path.resolve(__dirname, "src/js/pages/blog.js"),
+    shop: path.resolve(__dirname, "src/js/pages/shop.js")
    
   },
   output: {
