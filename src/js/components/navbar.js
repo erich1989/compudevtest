@@ -19,7 +19,7 @@ const navBar =() => {
          <a class="nav-link py-2" href="/compudev/">Home <span class="sr-only">(current)</span></a>
        </li>
        <li class="nav-item">
-         <a class="nav-link py-2" href="/compudev/servicios">Servicios</a>
+         <a class="nav-link py-2" href="/compudev/servicios/">Servicios</a>
        </li>
        <li class="nav-item">
          <a class="nav-link py-2" href="/nosotros">Nosotros</a>
