@@ -14,7 +14,7 @@ const config = {
   output: {
     filename: "js/[name].js",
     path: path.resolve(__dirname, "docs"),
-    publicPath:"https://erich1989.github.io/compudev/"
+    publicPath:"hhttps://erich1989.github.io/compudevtest/"
   },
 
   mode: 'production',
