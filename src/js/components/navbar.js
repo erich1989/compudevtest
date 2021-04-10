@@ -25,7 +25,7 @@ const navBar =() => {
          <a class="nav-link py-2" href="/nosotros">Nosotros</a>
        </li>
        <li class="nav-item disabled">
-         <a class="nav-link" href="/tienda">Tienda</a>
+         <a class="nav-link" href="/compudev/tienda">Tienda</a>
        </li>
        <li class="nav-item">
          <a class="nav-link py-2" href="/compudev/blog">Blog</a>
