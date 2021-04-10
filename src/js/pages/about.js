@@ -1,7 +1,6 @@
-
-import "../../css/index.css";
 import "bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
+import "../../css/index.css";
 
 import Navbar from '../components/navbar';
 import Banner from '../components/banner';
